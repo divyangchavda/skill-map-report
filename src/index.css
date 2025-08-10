@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 0 0% 98%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -17,8 +17,8 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 207 100% 42%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -26,15 +26,36 @@ All colors MUST be HSL.
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 207 100% 42%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 207 100% 42%;
+
+    /* VMock-specific colors */
+    --vmock-blue: 207 100% 42%;
+    --vmock-orange: 32 95% 58%;
+    --vmock-green: 142 77% 46%;
+    --vmock-amber: 45 93% 58%;
+    --vmock-red: 0 84% 60%;
+    --vmock-gray: 210 11% 71%;
+    
+    /* Status colors */
+    --status-good: 142 77% 46%;
+    --status-good-bg: 142 77% 95%;
+    --status-track: 45 93% 58%;
+    --status-track-bg: 45 93% 95%;
+    --status-needs: 0 84% 60%;
+    --status-needs-bg: 0 84% 95%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(207 100% 42%), hsl(207 100% 52%));
+    --gradient-hero: linear-gradient(135deg, hsl(207 100% 42%), hsl(32 95% 58%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 40% 98%));
 
     --radius: 0.5rem;
 

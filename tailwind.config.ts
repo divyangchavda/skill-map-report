@@ -61,6 +61,22 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				vmock: {
+					blue: 'hsl(var(--vmock-blue))',
+					orange: 'hsl(var(--vmock-orange))',
+					green: 'hsl(var(--vmock-green))',
+					amber: 'hsl(var(--vmock-amber))',
+					red: 'hsl(var(--vmock-red))',
+					gray: 'hsl(var(--vmock-gray))'
+				},
+				status: {
+					good: 'hsl(var(--status-good))',
+					'good-bg': 'hsl(var(--status-good-bg))',
+					track: 'hsl(var(--status-track))',
+					'track-bg': 'hsl(var(--status-track-bg))',
+					needs: 'hsl(var(--status-needs))',
+					'needs-bg': 'hsl(var(--status-needs-bg))'
 				}
 			},
 			borderRadius: {
